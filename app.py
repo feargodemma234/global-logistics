@@ -9,22 +9,7 @@ st.set_page_config(
 # =========================
 # BROWN THEME
 # =========================
-
-st.markdown("""
-    <div class="hero">
-
-        <div class="hero-title">
-            Global delivery.<br>
-            Built for speed.
-        </div>
-
-        <div class="hero-text">
-            Ship packages, track deliveries, shop products
-            and manage your business from one global platform.
-        </div>
-
-    </div>
-    """, unsafe_allow_html=True)
+st.markdown('<div class="hero"><div class="hero-title">Global delivery.<br>Built for speed.</div><div class="hero-text">Ship packages, track deliveries, shop products and manage your business from one global platform.</div></div>', unsafe_allow_html=True)
 
 # =========================
 # SESSION
