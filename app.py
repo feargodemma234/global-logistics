@@ -11,65 +11,20 @@ st.set_page_config(
 # =========================
 
 st.markdown("""
-<style>
+    <div class="hero">
 
-.stApp {
-    background-color: #5A3825;
-}
+        <div class="hero-title">
+            Global delivery.<br>
+            Built for speed.
+        </div>
 
-.block-container {
-    max-width: 1150px;
-    padding-top: 25px;
-}
+        <div class="hero-text">
+            Ship packages, track deliveries, shop products
+            and manage your business from one global platform.
+        </div>
 
-.hero {
-    background: linear-gradient(135deg, #2B160D, #7A4A2A);
-    padding: 70px 30px;
-    border-radius: 25px;
-    text-align: center;
-    color: white;
-}
-
-.hero-title {
-    font-size: 55px;
-    font-weight: 800;
-    line-height: 1.1;
-}
-
-.hero-text {
-    font-size: 19px;
-    color: #F2DFCC;
-    max-width: 700px;
-    margin: auto;
-}
-
-.card {
-    background: #FFF9F3;
-    color: #2B160D;
-    padding: 30px;
-    border-radius: 20px;
-    margin-top: 20px;
-}
-
-.logo {
-    font-size: 28px;
-    font-weight: 800;
-    color: white;
-}
-
-.logo span {
-    color: #D9A066;
-}
-
-.footer {
-    text-align: center;
-    color: #E6CCB5;
-    margin-top: 70px;
-}
-
-</style>
-""", unsafe_allow_html=True)
-
+    </div>
+    """, unsafe_allow_html=True)
 
 # =========================
 # SESSION
